@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Haven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .menu-item {
+            margin-bottom: 20px;
+        }
+        .menu-item img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coffee Haven</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home" class="container">
+        <h2>Welcome to Coffee Haven</h2>
+        <p>Your favorite place for the best coffee in town.</p>
+    </div>
+
+    <div id="menu" class="container">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Espresso</h3>
+            <img src="https://cdn.pixabay.com/photo/2024/04/18/11/56/ai-generated-8704231_640.png" alt="Espresso">
+            <p>Price: $3.00</p>
+        </div>
+        <div class="menu-item">
+            <h3>Cappuccino</h3>
+            <img src="https://cdn.pixabay.com/photo/2016/08/03/05/33/latte-1565931_640.jpg" alt="Cappuccino">
+            <p>Price: $4.00</p>
+        </div>
+        <div class="menu-item">
+            <h3>matcha latte</h3>
+            <img src="https://cdn.pixabay.com/photo/2017/08/26/19/12/matcha-green-tea-2683990_640.jpg" alt="Latte">
+            <p>Price: $4.50</p>
+        </div>
+        <div class="menu-item">
+            <h3>mango matcha latte</h3>
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBAQEhAQDw8PEBAPDw8QEA8PDw8PFRUWFhUSFxUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi8lHx8tKy0rKy0tLS0tLS8tLS0tLS0rKystLS0rLSstKy0rLS0tLS0tKy0rLS0tLS0tLS0tK//AABEIAMEBBQMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAACAAEDBQYEB//EAD0QAAIBAgMFBgMGBAUFAAAAAAABAgMRBBIhBTFBUWEGInGBkaETMsEUI0JSsdEVM3LwBxZDYpJTgrLC8f/EABoBAQEBAQEBAQAAAAAAAAAAAAABAgMEBQb/xAApEQEBAAIBAwIFBAMAAAAAAAAAAQIRAwQSITFBEyJRcZEFFDJhQlKh/9oADAMBAAIRAxEAPwDCktIhJaTAlkcdZanY2ctbeaRA0BYmYDRFdGFLrCopsMXWEMjtih7BQQ7Q0yBIOI1hwqSJJEiiSRIJonTTRywOmkBe9kcLnxlPlTzVX/2rT3aNHtfEpOpN7opvyRw9iKWWGJrclGnF+7/9Sv7S4tqjUVrZrRT533+1zjy5SWS+7UjGzm5Nye+Tbfi3cgnAmQmj0MORwBynS4guBRBYVibKNlAisKxLlGylRHYaxLlGygR2GsSWGsVEUkA2S1EQSANMRCmICnDpsjDgYdErZz1WTNkFUqBGY6GYVPhi7wZR4cvMEZFlBDtCgE0VlGxgmCwCRJFhYWjCSd6mVrcsrfqFPDSWqtOP5oO6/dHHHn48su2XyuqeDOqiyLCYOpP5Yt9baF/hez7eRXeaTSemiuzpcpEabZ2H+DgqV3aVROpKPNy1T9LGM7WYi7hDleT/AEX1N5t6rFWprTJFacEjzbbuHqZpVHTmqbatNp5X5nk48scua9t8Te/PvPDpfGKviIkw+FqTjmjCc47s0YuSvy0FKjJb4yXjFo9rmiaGsEIojaGDaGYADNBMZhAjMJjMoBjMdjMqAqHPJHRUIGBHYQTEFUYUWAEjDaRshqMKTI5sBJiYKHYE2HZd4Eo6Bd4Fkot6Zd7I7N1sR3lanDR5pJ3afFLiUlLce1bOwijQpRa1jThHTTgjnyZZSfKSMfhuxVJNZpSqc98FfyIsds3C3lRoxjGcL3ku9KU1+FSe5I2WKhlWlTLd2TccxTU45pT79GTzWl91kb53suvueOfFv8smrr2YiphIyWis0960ZV4jB16clKE3JSbcU7N25O2p6f8Awii82ajTTW9wco8easc2I2Dh2t01fdao7nlz4rx+dnqquz3aOE/h0cTTVKrbLGTWWMnyfDlru14Gww9GCknazWq8TNPY9FXTUqi4qdSLS9Ei5o1rJblbdrc5/ubfS1uY/Ue3MF8WMrScJWsrW10K3H0sRUpU6c6VKqqcd8JuF5JZbyjbTTkzsltJuVs8PlTei38jo/iNNRvZN+L3jgufJle26+65SRk8JgcTh6jdGEqdKSjmo03CalNJJz7y4mght3hVw8luXepNeu9E2I2xGNstm+N9bHPDb64pcdyseuTOeO5jwkxuHwlSnmnQUVxaptT8rI892xgo05KUG8k3LLF6uKT0TfM1209vxya24PvNZWrmKxmPjUeVSUnG701SO/DlZn5qZa05mCwmCz3OYWCwmMwBYzHYLKgWMOxmBHMhkTVCCRQyEJCAoxCEzDYZMBseYBFOh2DEICWgXWCZS0S4wTJRd4Z6xvuur+B63szab+DCbejimrro2k/I8kwNH4kowX4nby4noVGrljk/DGLSXgkj5vXdReLLHRI59u9oZzjGGV0pNtqbd6dl1/8Apl9h9oqlNzbXxXKpmWulud1wf0NVj8PGcZQe7KuCfhv8SrpbEhGce9dJK60WiOE6nHK735SyrWj2lqSTXwqevG7smdD2zLS9OndaaSepTuglFvjmsvAGpp/fUmfUW+hFhU24+991F3vfvNcfAr8RtpuK7ltX+O/0Of4TcW/H9ThrzUYpvnbmcLnnl4a9E1bbzjJvIterKut2uqJtZYW8JXv6keNhfXddehlsS9X4jh5ct2JV3X7VYhv5ox8IR+px1tu13vqy8E8vHoU0p6jZt57Md31rLqr4qUrNycnZrVt8SXZOKfxY/wC52fmVrn/5fqSYWpZp8mvZnfjmrsbFgse99eeoLZ9FDMFhMFgMCxwWwGYLHbBKgahzyJ6jOeTAdDDRYiimGZcLs5W5INdma39ow2oJgI0X+Va39oS7JVufsQZ6IRo4dj6vP2JY9janN+gVm6Rb4Ms6XYyf5mWOG7JTXFkRL2Yjesn+WMn9PqaupPTq8q9XcosPgfst5ye+NkWVKqpZesm7dErHw/1KW57JUtWvpLrJL0I51+9J8o/Qhm9I9ZtnLXrW+K2+nueLDEtFPFd2K5yJftCvqVFap/Ltu3+48qvefRM6TC+dJtZqvaG/Rr6nFiZrKr23lbUxTybyuxuO0ir+5zs5d6jW4l2rjVey5IzVWd7nZWqXlvOGXHzPXwcXbEtA+AkK24NRPXERSWj8mNT3+ZNbf/SyOK/RM64jW4SpelB/7UE5Ft2K2fGth3dXcKjj5NJo0C7Ox/Ke+XwjEZhmzdLs7H8oX+Xo/lG10wNxmbiv2fXIr6uw7cC7RlGxmaCrsq3AgeA6Gk2oqhBJPkaOWB6APAdCptn1F8hjQrAIYG3oa2ZHkg1syPJHYOjk25Fs6PQdbOj0OsJBXKsBENYGJ0IcCFYOPIkjho8iRBIDKdrsOpVcPT4Zsz62K6Xda/ok/Vnf2qv9qoyvaEYTu+r0X1K2tXjJzUJRk4qEXaz0PkdZ82evowmzfIuUWym2rScqFRLfJ2Rbtd59IW+hzYiNqcOsrnlxmrv6FZ3CwknCD3pLfyOqo1eb6E9aP3xx1U7TZqebaK7HYlRpt+hmamPcpJJNv6GlxFBOCvrru8iuxFBRcbJJWvuPRj2yenlZXO9/6kD4nRPezn5lwnhQp7g76g8F4hSi7vwOsiAnUtbzHgtF1TRxY3D1JWy/L6anXhabSSbu1dNna4ySD0v/AApxH8+nzUJr3T+h6JFo8q/w3q5cSlf54Sj48T1Kx6cP4xYluNcBBGlKUUznq4dM6LiApsTgyqxGCaNZKBy1sMmWVnTHVaTRA0aXE4IrK+EsblZ0rLCJ5Uxyo3Q4hJHJ0IJIVhJgEgkMgogEkGojJhXCsh2qp5qluij6lNs3DRglFK156vnY0e18O3O/Vv0TKqjh3eD5Xkz43LjbyXz4tZp5JfePyK7a2NpUqcHUmoR0V36nTip2hLX5m/YrdobOp18sasXJJq1m09xrjwx3qs1HTxMaks8dYyTcXZq6IXR7s+vsd2zsNTjmSVko2S3oirTdpJre7KxrLjwl3jU2qqtPuLi03fXgVW0Id5c7F5Xj3Y+ejK3aS7y0vor2L2qzO0sX8N3txOOhi3N2jGT8tPM0MqV5NW570csabV7ex3mUk9FRulaO9Du911VmdCpO3QUqe4yIo09H0YMoWcujTOrL8wEqV2+sf0NxV52OqZcTRfKove6PZWeJbGuqkH1T90/qe20neMXzSfsejjvggWMS5Rsp0VG0NcNg5QFcGQeUawEM6dzixGGLJojlADP1cFqIuZURF2jusOkOkEFNYZRHHsQJIIZIewDjxGHTFCxez07+BSYjAODbtdRj69DVqSsR1aaldcz5/Jxy+cXTTzrE4TurTXiwI0e94Zuu7Q2WL2WnaxXT2dZvTmcpuXyxcGSdC2d210IalB5V1bNTLZektN7OPEbOdl1uWSM9tZavRdkuhy4/D3ktOC8Gat7Ou0nwSH/gqctehuefRO2sLLBvO2FT2a3rY238GjmJqOzorgdJF7aw0sHLLZR9jhqYN3Wju9GelfYo8jnq7Li2rq/kSy+yzB5/DByu1Z7jvwWy3J6qysa5bMim9A44ZLciTfu32MysEqUlK3djdvyR6rs93pQ/pRhsVRUrR450rdLNu5usFG1OC5RR34bu1cse2JhrCbGPQ5nsPYYe4CyjOIYzAjaAkiVoawEOQYnyCCFcTYIUUVToIYe4Daj5hnIBkEmYdAxiHGIEdHE2lkfNWOz4m8q9q0XZTW9cjiw9aU6dW8m5JK3kfB6jk5On5bjrcu7Pxbp78MJyYd35X86q01OebV7X1aukYzEYuf5n6s5XtWopJ5m2t13c8c/V7l/h/wBej9j/AG3crWsQVYJpaGXpdpJpa2fkFLtPxyp9Nx7Mf1Piviy/hwvRZxe1KCzXtwsBOOpXYbb1Oe95H13epYqd9T08fU8eX8K45cOWPrELgRqG/oTOabsJQ0fDmS83dflJx69UapgyhuHp1k9OW84MdtSK0hr/ALuBxvW4TDutdMeDK3Uies0tWc6xEedl9Sixm0m9XK/LkU2N2lJ7nbwPFOt5c894zw9U6WSeWvwFNVK90t8nbwSsbTLZJcjI/wCHmDaoutPfJ2hfhH+2/U17Z+g6XGzj3fWvndRlvLU9jDIGQ0T0uAwh0OkA9hElgMoANDZQ8gsgAWEHlHAgsEhohFQzGaCGQUKQVglEJRIGiGhIJIBpxumnuZn61J0pyXCSt+xoTl2hhs8b8Y6o83VcHxcP7jvw8nZf6rFYyGrKqtE0m1Kf4lx1a5PiUlWnq/U/H8nBeLOx9zj5JlirW2c2Ir5U3roWVSkclfDp8DWGU35XLevCpwm1ozlZOz5G+7LY1Sg4N96Oq8DAS2LD4iqRzRkndpbmWkHY9l5OPjzmfF+K88wyzxuOb0KWjzXXhY5a7k/x2i9+61jGvHzStnlblmZBW2jJ75Npc22Z5OX4k1JqfdMeDt87aOvj6dO+WV3rfkZ3E7Q32K+tib3OSpXOXH07tuYp6+JA2ZhJYivCjHfN6vhGP4pM4KtQfBbRnRk5U5ZZNWbVt3I+r0nTd+WvZ5eo5u3Hw94wlGNKnCnD5YRUV+4TmjxaHa7FL/Vv4pHVS7bYlb3F+TPu6fIevZx/iHllPt7WW+MX5nXR7fv8VP0aGqPR/ikkKhhsP2+pP5oSXkWWF7ZYaX4svjoXVNtdGQaZU4Pa9Kp8tSL8ywjUIJhyNMNAPYQOYQHLBjuTI4ksJFQyYaE0PEinuJSE0CkBJcJMAcA3IZAhRCqXbOBavJfK/ZmarU7a8v0PQ3BNNPVMxW1atKNWcM1pResXpfS+nM+Z1nRzL5o9nT89ny1UzprU5K8ddPI6p14K/e0Wmul+hVYzacVaybe9aaWPjZdO+hOQ1aWjbOSpXWljixG0b310bOOWNXP3RMeCr8SLGpW1OepXOGWMT3XfgSUKNWo2qdKpKycn3Wu6t7u+CO+PBfol5YKcyGzbsvBFjQ2JWb73cXd3Xm7SjmT003EO09p0sMnSorPXu06kkm4Lcuia19WejHgy9HHLliux0/hd2/3jWq/IuvUr/ikLzNtu7bd23vbDjE+vw8U48dR8/kzud3RqoHGqR5Q40ztHOpVUDjUIo02TU6RqVmpqczoiRU6R0RptGpWLE1Cbi7ptPmm0X+zO1Feja8s8fyy/coIp2JMjL6o9X2F2gp4had2aWsXv8i7UzxnZmLdKpCom1lkr25cT0ah2pwr/ANX1jIxYsrQXEVEe0OGf+tD3Q4VYJBJDXCQBxDAQrkU7YkxkEvMBxXGGcrAEOmRKQ+cKmUjJ9suz/wAb72CeZLvJb9OKNQpiciWbWXTxmvCpDSSzW4r5vQgliYcXl1vacWtx6xtPYVKtdtZZfnjZPzW5mU2l2Nqq7g41V07svR/uePPouPK7nj7PRj1WU8VkJSpu/fp8H88VoN90s3fpLVL+ZD9zqx2wZQ0nSlHxi17nC9lL8vsYnQ6/zrf7qf6wquJoK7+LDR2VnKXn3URvblNWS+LV0y2tki478t3rbpYGezFyRGsB0NTosPe2/epepy9pIjxm2cRUi4RtRg/mytucvGT8lpbcU6wrXDXnzNDHBtC+ynpx45j4jlc7fVQKlIkhQZdfZbcB1huh0kc7VTHDPkS08OW32fpceNDp6aI1pnbghQ4WJo0tbWLTDYGcn3Kc5f0Qb9yzo9msRLdRcesssX7srO2djS1JlTtv1+hrcP2NrP5pQj5ym/ZW9yyodiI/iqyfSKUf3G4jBOD5fudeB2bVrO1OnKXW1kvFvQ9IwnZXDw1yKb5z73tuLmng4pWWiXBKyHcaZHYfZiFG06lqlRrda8I+u9l2tmUXvo0/+ES2eHXUH4JPK6U8ti4f/oU/+NhE209ofCcVo7pvehDZp2IKIhAGMt4hEU63h8RCAJkcxxACtwwhAOhMQiKGX0HQhAR1vll4M872t/Ml4iEEVlUh4iEGgsS4iEFoKnEaO7yQhFZolw/vgaHs1vXiIRqM1t4fIHQ4eAhGPcdqCQhFUUCUQggWBV+V+DEIo827QfzfUYQiK//Z" alt="Mocha">
+            <p>Price: $5.00</p>
+        </div>
+        <div class="menu-item">
+            <h3>iced strawberry matcha latte</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLQr5OlwGW-QUe9LV7iPoPic8exZpD6N0xg&s" alt="Cold Brew">
+            <p>Price: $4.50</p>
+        </div>
+    </div>
+
+    <div id="about" class="container">
+        <h2>About Us</h2>
+        <p>Coffee Haven is dedicated to providing the best coffee experience. Our beans are sourced from the finest regions and brewed to perfection.</p>
+    </div>
+
+    <div id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Email: info@coffeehaven.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </div>
+</body>
+</html>
